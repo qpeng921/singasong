@@ -2,3 +2,9 @@
 
 _pip install loguru_
 _pip install faiss-gpu_
+
+
+#preprocessing
+
+conver m4a file to wav format , use the links below 
+https://www.aconvert.com/cn/audio/m4a-to-wav/
