@@ -1,0 +1,11 @@
+#audio data needs to be slice to trunck between 5-10 seconds
+
+1.create python 3.11 env
+2.clone this repo  https://github.com/openvpi/audio-slicer.git
+3.install packages:
+_pip3 install -r requirments.txt_
+_pip3 install librosa_
+_pip3 install soundfile_
+
+4.edit file "run.py", change in_dir and out_dir
+5.run "run.py"
