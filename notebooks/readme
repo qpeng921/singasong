@@ -1,4 +1,4 @@
 ##install package before running ,and make sure GPU is connected
 
-pip install loguru
-pip install faiss-gpu
+_pip install loguru_
+_pip install faiss-gpu_
