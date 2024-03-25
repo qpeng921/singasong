@@ -6,5 +6,24 @@ _pip install faiss-gpu_
 
 #preprocessing
 
-conver m4a file to wav format , use the links below 
+1.conver m4a file to wav format , use the links below 
 https://www.aconvert.com/cn/audio/m4a-to-wav/
+
+
+2.then split them into chunks using audio-slicer, refer to file "slice audio"
+
+
+3.resample to adjust HZ if nesessary
+
+4.use hubert to get soft content of input date , get F0
+there is a way to augment??
+
+
+
+
+
+##issue 1 
+## having trouble with clusters training 
+
+
+
