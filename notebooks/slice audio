@@ -1,6 +1,14 @@
 #audio data needs to be slice to trunck between 5-10 seconds
 
 1.create python 3.11 env
+（currently, I'm using a vitural environment named SCV, flowing the steps 
+   # create a folder to install the virtual environment 
+   # execute "python -m venv  nameofspace ", to create the venv
+   # switch to the space ,inside the virtual folder path ,execute " source nameofspace/bin/activate"
+   # then use normal python cmd, such as pip install
+   # how to transfer this venv remains exploration ???
+）
+
 2.clone this repo  https://github.com/openvpi/audio-slicer.git
 3.install packages:
 _pip3 install -r requirments.txt_
