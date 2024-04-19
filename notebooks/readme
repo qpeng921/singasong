@@ -11,12 +11,16 @@ https://www.aconvert.com/cn/audio/m4a-to-wav/
 
 
 2.then split them into chunks using audio-slicer, refer to file "slice audio"
-
+and saved in a director named speaker1 then zip the director
 
 3.resample to adjust HZ if nesessary
 
 4.use hubert to get soft content of input date , get F0
-there is a way to augment??
+there is a way to augment??, and the data will be saved as dataset.zip
+
+5.start training ,the model will be saved 
+
+6.upload a wav vocal file on colab ,choose the model name and start reference
 
 
 
@@ -25,5 +29,10 @@ there is a way to augment??
 ##issue 1 
 ## having trouble with clusters training 
 
+##issue 2 
+## did not try all hyperparameters
+
+##issue 3
+## have not merged generated vocal and instrumental, did not find useful tool
 
 
